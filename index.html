@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip - Card Memory Game</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div class="parent-container">
+        <div style="margin-bottom: 10px;">
+            <h2 style="margin-bottom: 10px;">Flip - Card Memory Game</h2>
+            <div style="display: flex; justify-content: space-between;">
+                <span>Score: <span id="score"></span></span>
+                <span id="timer">0:00</span>
+            </div>
+        </div>
+        <div class="container" id="container">
+            
+            <template id="flip-card-template">
+                <div class="flip-card flipped">
+                    <div class="inner">
+                        <div class="front"></div>
+                        <div class="back">
+                            <img src="" class="image" />
+                        </div>
+                    </div>
+                </div>
+            </template>
+            
+        </div>
+    </div>
+
+    <script src="./icon.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
